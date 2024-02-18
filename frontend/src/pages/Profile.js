@@ -72,14 +72,14 @@ const Profile = ({onClose}) => {
         <div className="songs-container grid col-span-1 bg-aliceblue overflow-auto h-96 justify-center items-center flex-wrap gap-8 flex-col">
           <div className="add-event-btn-div flex items-center justify-center w-full h-12">
             <CiCirclePlus
-              className="add-event-btn h-10 w-10 text-white mt-2 cursor-pointer"
+              className="add-event-btn h-10 w-10 text-black-400 mt-2 cursor-pointer"
               onClick={handleClick}
             />
           </div>
           {SongsData.slice(0, index + 1).map((item, idx) => (
             <div
               key={idx}
-              className="songs-div bg-yellow-300 text-white self-center text-center h-10 w-80 rounded-md"
+              className="songs-div bg-black-300 text-white self-center text-center h-10 w-80 rounded-md"
             >
               {item.songs}
             </div>

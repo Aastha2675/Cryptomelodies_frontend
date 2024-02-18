@@ -1,8 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
     body {
-        background-color: #14161b;
+        /* background-color: #14161b; */
+        /* background-color: #d9e7da; */
+        background: linear-gradient(to right,#d9e7da , #d3eceb );
     }
 }
