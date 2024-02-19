@@ -16,8 +16,10 @@ nav {
     border-radius: 5rem;
     height: 6rem;
     font-size: 1.1rem;
-    background-color:black;
-    color: white;
+    /* background-color:; */
+    /* background: linear-gradient(to right,#DAEAF1,#CDF0EA ,#CCD3CA); */
+    background: linear-gradient(to right,  rgb(245, 210, 245), rgb(209, 223, 250), #dde3ff, #cad1fa, rgb(245, 210, 245));
+    color: black;
 }
 
 .website-name {
@@ -25,7 +27,8 @@ nav {
     justify-content: center;
     grid-column: 2/3;
     font-size: 1.4rem;
-    color: #ffdef4;
+    font-weight: 500;
+    color: black;
 }
 
 .other {
@@ -64,7 +67,7 @@ nav {
 
   .artist-btn{
     /* background:linear-gradient(to right, #af6fc0 5% ,#f6bbe2); */
-    background-color: #f6bbe2;
+    background-color: black;
     justify-content: center;
     height: 3rem;
     width: 10rem;
@@ -72,7 +75,7 @@ nav {
     border: none;
     font-weight: 500;
     font-size: 1.1rem;
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
   }

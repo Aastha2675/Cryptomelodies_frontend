@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Slider from "../pages/slider"; 
+// import Slider from "../pages/slider"; 
 import { ArtistContext } from "../context/artContext";
 
 const ArtistCard = ({ artist }) => {
@@ -16,7 +16,7 @@ const ArtistCard = ({ artist }) => {
   return (
     <Link to="/Artist" onClick={handleArtistClick}>
       <div
-        className={`max-w-lg rounded rounded-3xl overflow-hidden shadow-lg bg-transparent transition-transform duration-300 transform hover:scale-105 border border-black border-4   ${
+        className={`max-w-lg rounded rounded-3xl overflow-hidden shadow-lg bg-transparant transition-transform duration-300 transform hover:scale-105 border border-black border-4   ${
           isHovered ? "shadow-xl" : ""
         }`}
         onMouseEnter={() => setIsHovered(true)}
@@ -118,9 +118,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Slider />
+      {/* <Slider /> */}
       <div className="container mx-auto px-4 py-4">
-        <h1 className="text-5xl font-bold mb-10 text-black items-center text-center ">
+        <h1 className="text-5xl font-bold mt-2 mb-2 text-white items-center text-center ">
           Discover Undiscovered Artists
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">

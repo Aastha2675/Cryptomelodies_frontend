@@ -6,7 +6,7 @@
 }
 
 .buy-now-btn {
-    background: linear-gradient(to right, #8860D0, #5AB9EA);
+    background: linear-gradient(to right, #6170ee, #3f47de);
     ;
     /* Blue background color */
     text-align: center;
@@ -18,7 +18,6 @@
     /* White text color */
     padding: 10px 10px;
     /* Padding around the text */
-    border: solid rgb(107, 104, 104);
     /* No border */
     border-radius: 10px;
     /* Rounded corners */
